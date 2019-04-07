@@ -10,8 +10,10 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "mirrorFiles": "node ./scripts/mirrorFilesToPublic.js",
+    "predeploy": "npm run mirrorFiles && npm run build",
     "deploy": "gh-pages -b master -d build",
+    "postdeploy": "node ./scripts/postDeploy.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -27,6 +29,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "copy": "0.3.2",
+    "del": "4.1.0",
     "gh-pages": "2.0.1"
   }
 }
