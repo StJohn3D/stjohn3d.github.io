@@ -1,5 +1,11 @@
 .App-content {
   animation: fadein 2s;
+  font-size: calc(10px + 1vmin);
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+  }
 }
 
 @keyframes fadein {
