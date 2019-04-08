@@ -6,7 +6,7 @@ import { Media } from './pages/Media'
 import { Contact } from './pages/Contact'
 import './App.scss'
 
-function BasicExample() {
+export const App = () => {
   return (
     <Router>
       <div className="App">
@@ -28,5 +28,3 @@ function BasicExample() {
     </Router>
   );
 }
-
-export default BasicExample;
