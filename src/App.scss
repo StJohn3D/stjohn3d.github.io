@@ -1,15 +1,16 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
 
   .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    min-height: 50vh;
+    justify-content: flex-end;
     font-size: calc(10px + 2vmin);
-    color: white;
 
     .App-home-link {
       color: white;
@@ -30,10 +31,10 @@
         }
       }
     }
-
-    hr {
-      width: 90%;
-      border: 1px solid rgba(200, 200, 200, 0.15);
-    }
+  }
+  
+  hr {
+    width: 90%;
+    border: 1px solid rgba(200, 200, 200, 0.15);
   }
 }

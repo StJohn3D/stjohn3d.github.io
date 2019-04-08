@@ -10,7 +10,7 @@ export const Media = () => {
         <FontAwesomeIcon icon={faVimeoSquare} /> Vimeo
       </a>
       <a href="https://www.youtube.com/channel/UCHUiwM3sIogMjfwaN60Q-8A" target="blank">
-        <FontAwesomeIcon icon={faYoutubeSquare} /> Vimeo
+        <FontAwesomeIcon icon={faYoutubeSquare} /> YouTube
       </a>
     </Content>
   )

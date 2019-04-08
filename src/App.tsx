@@ -18,12 +18,12 @@ export const App = () => {
             <NavLink to="/media" className="App-link">Media</NavLink>
             <NavLink to="/contact" className="App-link">Contact</NavLink>
           </nav>
-          <hr />
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/media" component={Media} />
-          <Route path="/contact" component={Contact} />
         </header>
+        <hr />
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/media" component={Media} />
+        <Route path="/contact" component={Contact} />
       </div>
     </Router>
   );
