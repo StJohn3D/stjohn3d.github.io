@@ -1,3 +1,14 @@
+body {
+  hr {
+    width: 90%;
+    border: 1px solid rgba(200, 200, 200, 0.15);
+  }
+  a {
+    color: #72e7fc;
+    text-decoration: none;
+    // margin: 10px;
+  }
+}
 .App {
   text-align: center;
   background-color: #282c34;
@@ -10,11 +21,12 @@
     align-items: center;
     min-height: 50vh;
     justify-content: flex-end;
-    font-size: calc(10px + 2vmin);
-
+    
     .App-home-link {
       color: white;
       text-decoration: none;
+      font-size: calc(10px + 2vmin);
+      padding: 0px 25px;
     }
 
     .App-nav {
@@ -22,19 +34,13 @@
       flex-direction: row;
       .App-link {
         padding: 5px 10px;
-        color: #ffffff;
-        font-size: calc(10px + 1vmin);
         text-decoration: none;
         text-transform: uppercase;
         &.active {
-          text-decoration: underline
+          font-weight: bold;
         }
       }
     }
   }
   
-  hr {
-    width: 90%;
-    border: 1px solid rgba(200, 200, 200, 0.15);
-  }
 }

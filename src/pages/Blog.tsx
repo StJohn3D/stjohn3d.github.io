@@ -1,10 +1,12 @@
 import React from 'react'
 import { Content } from '../components/Content'
 
-export const About = () => {
+import { Introduction } from './blogs/Introduction'
+
+export const Blog = () => {
   return (
     <Content>
-      About is under construction...
+      <Introduction />
     </Content>
   )
 }

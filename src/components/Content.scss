@@ -1,18 +1,12 @@
 .App-content {
   animation: fadein 2s;
-  font-size: calc(10px + 1vmin);
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: space-around;
+  // font-size: calc(10px + 1vmin);
+  // display: flex;
+  // align-content: center;
+  // align-items: center;
+  // justify-content: center;
   margin-left: 15%;
   margin-right: 15%;
-    
-  a {
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-  }
 }
 
 @keyframes fadein {
