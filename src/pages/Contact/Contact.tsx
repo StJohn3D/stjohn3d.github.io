@@ -1,10 +1,15 @@
 import React from 'react'
-import { Content } from '../components/Content'
+import { Content } from '../../components/Content'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faNpm, faLinkedin, faStackOverflow, faYoutube, faVimeo, faGithub, faTwitter, faTwitch } from '@fortawesome/free-brands-svg-icons'
 
 export const Contact = () => {
   return (
     <Content>
-      Contact is under construction...
+      <b>Employment Status:</b> Happily employed.<br /><br />
+      Currently working as a fulltime Software Engineer.
+
+
     </Content>
   )
 }

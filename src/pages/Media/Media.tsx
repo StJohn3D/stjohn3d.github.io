@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faVimeoSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
-import { Content } from '../components/Content'
+import { Content } from '../../components/Content'
 
 export const Media = () => {
   return (

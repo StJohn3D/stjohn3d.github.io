@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlogPost } from '../../components/BlogPost'
+import { BlogPost } from '../../../components/BlogPost'
 
 export const Introduction = () => {
   return <BlogPost title="Introduction | Who is StJohn3D?" datePublished="April 11, 2019" wordCount={200}>
@@ -22,7 +22,5 @@ export const Introduction = () => {
     That's why my dream is to one day be a full-time indie game developer.
 
     That, and to create an AI which can pass the Turing test.
-
-    I really want to right a program which can simulate the human mind.
   </BlogPost>
 }
