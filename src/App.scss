@@ -8,10 +8,10 @@ body {
     text-decoration: none;
     // margin: 10px;
   }
+  background-color: #282c34;
 }
 .App {
   text-align: center;
-  background-color: #282c34;
   min-height: 100vh;
   color: white;
 
@@ -24,6 +24,11 @@ body {
     justify-content: flex-end;
     &.home {
       min-height: 50vh;
+    }
+
+    .selfie {
+      border-radius: 100%;
+      border: 0.5rem solid white;
     }
     
     .App-home-link {
@@ -45,6 +50,14 @@ body {
         }
       }
     }
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    margin-top: 2rem;
   }
   
 }

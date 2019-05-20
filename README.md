@@ -1,6 +1,8 @@
-# stjohn3d.github.io
+# [stjohn3d.github.io](https://stjohn3d.github.io)
 
 Personal site for showcasing my work.
+
+Still largely a work in progress...
 
 ---
 

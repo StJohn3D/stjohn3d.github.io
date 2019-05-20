@@ -23,4 +23,5 @@ export const Contact = () => {
  * Vimeo: https://vimeo.com/stjohn3d or https://vimeo.com/stjohn3d/videos/appears/sort:date
  * GitHub: https://github.com/StJohn3D
  * Twitter: https://mobile.twitter.com/StJohn3D
+ * Twitch: https://www.twitch.tv/stjohn3d
  */
