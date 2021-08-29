@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{FDtd:function(t,e,i){"use strict";i.r(e);var n=i("hosL"),s="home__5d1wS";e.default=function(){return Object(n.h)("div",{class:s},Object(n.h)("h1",null,"This site is a work in progress"),Object(n.h)("p",null,"An experiment in creating a Preact site with GitHub Pages and Github Actions"))}}}]);
+//# sourceMappingURL=route-home.chunk.6391f.js.map
