@@ -30,7 +30,10 @@ Automated tests written using [preact-testing-library](https://testing-library.c
   [`enzyme-adapter-preact-pure`](https://github.com/preactjs/enzyme-adapter-preact-pure) for
   your tests
 
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/preactjs/preact-cli).
+For detailed explanation on how things work, checkout these resources:
+
+- [CLI Readme](https://github.com/preactjs/preact-cli).
+- [Config Recipes](https://github.com/preactjs/preact-cli/wiki/Config-Recipes)
 
 ## PWA resources
 
